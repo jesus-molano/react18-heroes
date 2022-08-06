@@ -1,0 +1,4 @@
+GET https://gateway.marvel.com:443/v1/public/characters/1009351?ts=1000&apikey=5caa94c569ed854a5b98c18e96af8972&hash=caa835e93645543861fe5fdbb12fb073
+Accept: application/json
+###
+GET https://gateway.marvel.com/v1/public/comics?ts=1000&apikey=123456&hash=df2bb84c21b3b7f0fa9ba59899c21b9b
