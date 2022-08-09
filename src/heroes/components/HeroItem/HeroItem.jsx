@@ -4,8 +4,7 @@ export const HeroItem = ({hero}) => {
   return (
     <li className="hero-card">
       <p className="hero-name">{name}</p>
-      <img src={images.md} alt={name}/>
+      <img src={images.md} alt={name} loading="lazy"/>
     </li>
   );
 };
-
