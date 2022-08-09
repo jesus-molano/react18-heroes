@@ -1,10 +1,10 @@
-import HeroesPage from "./pages/HeroesPage.jsx";
+import AppRouter from "./router/AppRouter.jsx";
 
 const HeroesApp = () => {
   return (
-    <div>
-      <HeroesPage />
-    </div>
+    <>
+      <AppRouter />
+    </>
   );
 };
 
