@@ -15,10 +15,10 @@ export const HeroPage = () => {
   const {name, powerstats, biography, appearance, work, images} = hero
 
   return (
-    <div>
+    <div className="position-relative">
       <h1 className="text-center mt-3">{name}</h1>
       <hr/>
-      <div className="container-sm d-flex flex-column justify-content-center align-items-center">
+      <div className="container-sm d-flex flex-column justify-content-center align-items-center ">
         <HeroInfo biography={biography} appearance={appearance} work={work} image={images.md}/>
         <HeroStats powerstats={powerstats} publisher={biography.publisher}/>
       </div>
