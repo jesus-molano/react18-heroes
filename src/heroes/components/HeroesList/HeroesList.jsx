@@ -1,18 +1,11 @@
-import {useEffect, useState} from 'react';
-import {getHeroes} from "../../api/index.js";
+import {useContext} from 'react';
 import {HeroItem} from "../";
+import {HeroesContext} from "@/context";
 import './hero-list.css';
 
 export const HeroesList = ({publisher}) => {
-  const [heroes, setHeroes] = useState();
 
-  useEffect(() => {
-    getHeroes().then(data => {
-      setHeroes(data);
-    }).catch(err => {
-      setHeroes([])
-    });
-  }, [])
+  const heroes = useContext(HeroesContext);
 
   return (
     <div className="heroes-container">
