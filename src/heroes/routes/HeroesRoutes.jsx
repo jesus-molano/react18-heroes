@@ -1,6 +1,6 @@
 import {Navigate, Route, Routes} from "react-router-dom"
 import {DCPage, MarvelPage, SearchPage, HeroPage} from "../pages"
-import {NavBar} from "../../ui"
+import {NavBar} from "@/ui"
 
 export const HeroesRoutes = () => {
   return (

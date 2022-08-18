@@ -1,8 +1,6 @@
 import {Navigate, useNavigate, useParams} from "react-router-dom";
 import {getHeroBySlug} from "@/heroes/helpers";
-import {HeroStats} from "@/heroes/components/HeroStats/HeroStats";
-import {HeroInfo} from "@/heroes/components/HeroInfo/HeroInfo";
-import {NavigateBackArrow} from "@/heroes/components/NavigateBackArrow/NavigateBackArrow";
+import {HeroStats, HeroInfo, NavigateBackArrow} from "@/heroes/components";
 
 export const HeroPage = () => {
   const {slug} = useParams()

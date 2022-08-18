@@ -1,4 +1,4 @@
-import {HeroesList} from "@/heroes/index.js"
+import {HeroesList} from "@/heroes/components";
 
 export const MarvelPage = () => {
   return (

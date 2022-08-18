@@ -1,6 +1,13 @@
 import './hero-bio-item.css'
 
 export const HeroBioItem = ({label, data}) => {
+
+  // join a space between camelcase string
+  const joinSpace = (str) => {
+    return str.replace(/([A-Z])/g, ' $1').toLowerCase()
+  }
+  label = joinSpace(label)
+
   return (
     <div className={`${label} hero-bio-info`}>
       <strong>{label}: </strong>

@@ -1,4 +1,4 @@
-import {HeroesList} from "../../components/index.jsx";
+import {HeroesList} from "@/heroes/components";
 
 export const DCPage = () => {
   return (

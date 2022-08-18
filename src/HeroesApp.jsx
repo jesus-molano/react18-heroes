@@ -1,5 +1,5 @@
 import AppRouter from "./router/AppRouter.jsx";
-import {HeroesProvider} from "@/context/index.js";
+import {HeroesProvider} from "@/context";
 
 const HeroesApp = () => {
   return (

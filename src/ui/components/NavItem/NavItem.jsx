@@ -1,6 +1,6 @@
 import {NavLink, useLocation} from "react-router-dom";
 
-export const NavItem = ({publisher}) => {
+export const NavItem = ({route}) => {
 
   const {pathname} = useLocation()
 
@@ -13,9 +13,9 @@ export const NavItem = ({publisher}) => {
             : 'text-primary active'
           : ''}`
       )}
-      to={`/${publisher}`}
+      to={`/${route}`}
     >
-      {publisher}
+      {route}
     </NavLink>
   );
 };
