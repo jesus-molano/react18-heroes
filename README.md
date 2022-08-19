@@ -7,7 +7,7 @@ This is a simple application that displays a list of heroes and villains from va
 book publishers, focusing mainly on marvel and dc.
 
 ## Image
-![Example Image](https://github.com/jesus-molano/react18-heroes/blob/main/public/readme-img.webp "Example image")
+![Example Image](https://raw.githubusercontent.com/jesus-molano/react18-heroes/main/public/readme-img.webp "Example image")
 
 
 ## Technologies
