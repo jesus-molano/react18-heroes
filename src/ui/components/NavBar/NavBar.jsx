@@ -21,7 +21,7 @@ export const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse " id="navbarNav">
           <ul className="navbar-nav fs-4 w-100 d-flex justify-content-between me-3">
-            <li className="publishers d-flex">
+            <li className="publishers d-sm-flex">
               <NavItem route="marvel"/>
               <NavItem route="dc"/>
             </li>
