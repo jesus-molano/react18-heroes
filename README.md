@@ -19,4 +19,6 @@ book publishers, focusing mainly on marvel and dc.
 * [Chart.js-2](https://www.chartjs.org/docs/latest/)
 * [Vercel](https://vercel.com/)
 
-
+## Creator
+* LinkdIn - [jesus-molano-perdomo](https://www.linkedin.com/in/jesus-molano-perdomo/)
+* Linktr.ee - [jesus_molano](https://linktr.ee/jesus_molano)
