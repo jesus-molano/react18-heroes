@@ -4,7 +4,7 @@
 ## Description
 
 This is a simple application that displays a list of heroes and villains from various comic 
-book publishers, focusing mainly on marvel and dc.
+book publishers, focusing mainly on marvel and dc. It has a "fake login" to practice with private and public routes.
 
 ## Image
 ![Example Image](https://raw.githubusercontent.com/jesus-molano/react18-heroes/main/public/readme-img.webp "Example image")
