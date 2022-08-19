@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
-import {getHeroes} from "../heroes/apis/superHeroApi.js";
-import {HeroesContext} from "./HeroesContext";
+import {getHeroes} from "../apis/superHeroApi.js";
+import {HeroesContext} from "./HeroesContext.jsx";
 
 export const HeroesProvider = ({children}) => {
 

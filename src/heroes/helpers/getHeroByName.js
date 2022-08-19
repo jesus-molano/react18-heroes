@@ -1,5 +1,5 @@
 import {useContext} from "react";
-import {HeroesContext} from "@/context"
+import {HeroesContext} from "@/heroes/context/index.js"
 
 
 export const getHeroByName = (name = "") => {

@@ -1,6 +1,6 @@
 import {useContext} from 'react';
 import {HeroItem} from "../";
-import {HeroesContext} from "@/context";
+import {HeroesContext} from "@/heroes/context/index.js";
 import './hero-list.css';
 
 export const HeroesList = ({publisher}) => {

@@ -29,7 +29,7 @@ export const SearchPage = () => {
       <hr/>
       <div className="container">
         <div className="row">
-          <div className="col-5">
+          <div className="col-12 col-md-5 mb-4">
             <h4>Searching</h4>
             <form className="d-flex flex-column" onSubmit={onSearchSubmit}>
               <input
@@ -44,7 +44,7 @@ export const SearchPage = () => {
               <button className="btn btn-outline-primary mt-1">Search</button>
             </form>
           </div>
-          <div className="col-7">
+          <div className="col-12 col-md-7 mb-4">
             <h4>Results</h4>
             <div className="alert alert-info" style={{display: showSearch ? '' : 'none'}}>
               Search a hero
